@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Runway 支持与反馈</title>
+  <title>Runway 支持</title>
   <meta
     name="description"
-    content="Runway（自由倒计时）的支持与反馈页面，包含联系邮箱、问题反馈建议和支持范围说明。"
+    content="Runway（自由倒计时）的支持页面，包含公开联系邮箱、问题反馈建议与支持范围说明。"
   >
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -17,34 +17,46 @@
         <span class="brand-mark" aria-hidden="true"></span>
         <span class="brand-copy">
           <span class="brand-title">Runway（自由倒计时）</span>
-          <span class="brand-subtitle">Runway by Fuhai Lab</span>
+          <span class="brand-subtitle">Fuhai Lab</span>
         </span>
       </a>
-      <nav class="nav-links" aria-label="主导航">
-        <a href="/privacy/">隐私政策</a>
-        <a href="/privacy-choices/">隐私选择</a>
-        <a href="/support/">支持与反馈</a>
-        <a href="/terms/">服务条款</a>
-      </nav>
+
+      <div class="nav-cluster">
+        <nav class="nav-links" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/privacy/">隐私政策</a>
+          <a href="/terms/">条款</a>
+          <a href="/privacy-choices/">隐私选择</a>
+        </nav>
+        <div class="locale-switch" aria-label="语言切换">
+          <a class="active" href="/support/">中文</a>
+          <a href="/en/support/">EN</a>
+        </div>
+      </div>
     </header>
 
-    <main class="legal-card">
+    <main class="legal-frame">
       <div class="legal-top">
-        <a class="back-link muted-link" href="/">返回首页</a>
+        <a class="back-link" href="/">返回首页</a>
         <span>公开联系页面</span>
       </div>
 
-      <section class="legal-header">
-        <h1>Runway 支持与反馈</h1>
-        <p class="support-lead">
+      <section class="legal-hero">
+        <h1>支持与反馈</h1>
+        <p>
           如果你在使用 Runway 时遇到问题，或想反馈建议、报告 bug、咨询功能细节，
-          可以通过邮件联系我们。我们希望支持过程也保持清楚、温和、可解释。
+          可以通过邮件联系我们。我们希望支持过程也像产品本身一样清楚、温和、可解释。
         </p>
+        <div class="legal-summary">
+          <span class="summary-pill">公开支持邮箱</span>
+          <span class="summary-pill">适用于苹果审核</span>
+          <span class="summary-pill">欢迎产品反馈</span>
+        </div>
       </section>
 
       <div class="support-grid">
         <section class="support-card">
-          <h2>联系方式</h2>
+          <h2>联系信息</h2>
           <p>
             开发者：Fuhai Lab
             <br>
@@ -52,7 +64,7 @@
             <a class="email-link" href="mailto:support@fuhailab.com">support@fuhailab.com</a>
           </p>
 
-          <h2>反馈时建议附带的信息</h2>
+          <h2>为了帮助我们更快定位问题，建议附上</h2>
           <ul>
             <li>设备型号与系统版本</li>
             <li>问题出现时的操作步骤</li>
@@ -82,11 +94,11 @@
     </main>
 
     <footer class="footer">
-      <span>Fuhai Lab</span>
+      <div class="footer-note">Runway（自由倒计时） · Fuhai Lab</div>
       <div class="inline-links">
         <a href="/privacy/">隐私政策</a>
-        <a href="/privacy-choices/">隐私选择</a>
-        <a href="/terms/">服务条款</a>
+        <a href="/terms/">条款</a>
+        <a href="/en/support/">English</a>
       </div>
     </footer>
   </div>
