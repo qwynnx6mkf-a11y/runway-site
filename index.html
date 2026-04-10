@@ -1,246 +1,235 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Runway（自由倒计时）</title>
+  <title>Runway</title>
   <meta
     name="description"
-    content="Runway（自由倒计时）是一个把资产、现金流与支出基线翻译成时间感的个人财务产品，用更克制、更清楚的方式帮助你理解现在与接下来。"
+    content="Runway is a luminous, local-first personal finance product that turns assets, cash flow, and baseline spending into a clearer sense of time."
   >
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="page-shell">
+  <div class="site-shell">
     <header class="site-nav">
-      <a class="brand-block" href="/">
-        <span class="brand-mark" aria-hidden="true"></span>
+      <a class="brand-link" href="/">
+        <img class="brand-logo" src="/assets/logo77.png" alt="Runway logo">
         <span class="brand-copy">
-          <span class="brand-title">Runway（自由倒计时）</span>
-          <span class="brand-subtitle">Fuhai Lab</span>
+          <span class="brand-name">Runway</span>
+          <span class="brand-meta">Fuhai Lab</span>
         </span>
       </a>
 
       <div class="nav-cluster">
-        <nav class="nav-links" aria-label="主导航">
-          <a href="#philosophy">产品哲学</a>
-          <a href="#experience">体验方式</a>
-          <a href="#privacy">隐私与信任</a>
-          <a href="/support/">支持</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#what-it-reads">What It Reads</a>
+          <a href="#why-time">Why Time</a>
+          <a href="#trust">Trust</a>
+          <a href="/support/">Support</a>
         </nav>
-        <div class="locale-switch" aria-label="语言切换">
-          <a class="active" href="/">中文</a>
-          <a href="/en/">EN</a>
+        <div class="locale-switch" aria-label="Language switch">
+          <a class="active" href="/">EN</a>
+          <a href="/zh/">中文</a>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="poster">
-        <div class="starfield" aria-hidden="true"></div>
-        <div class="poster-grid">
-          <div class="poster-copy">
-            <div class="poster-preface">Premium finance, without severity</div>
-            <div class="eyebrow">Runway for Financial Clarity</div>
-            <h1>让财务重新变得<br>可感知、可解释，<br>也可安定。</h1>
-            <p>
-              Runway 把资产、现金流、支出基线与趋势，翻译成更接近生活感受的 runway。
-              它不是为了放大焦虑，而是把不确定重新还原成一种你能理解、安排、并平静面对的时间尺度。
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <div class="hero-preface">Apple-inspired luminous storytelling</div>
+            <div class="eyebrow">Runway for financial clarity</div>
+            <h1 class="hero-title">See what money means,<br>in time.</h1>
+            <p class="hero-lead">
+              Runway translates assets, cash flow, and baseline spending into something easier to feel:
+              how much room you have, where the direction is moving, and what deserves your attention next.
             </p>
             <p class="hero-note">
-              不是更吵的仪表盘，不是更重的负担感。是更安静、更诚实，也更有审美和空气感的财务理解方式。
+              It is not built to intensify pressure. It is built to make the numbers quieter, truer, and more livable,
+              so you can read your financial state without being pushed into panic.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="/support/">联系支持</a>
-              <a class="button secondary" href="/privacy/">阅读隐私政策</a>
+              <a class="button primary" href="/support/">Contact Support</a>
+              <a class="button secondary" href="/privacy/">Read Privacy Policy</a>
             </div>
-            <div class="hero-after">
-              <span>Local-first 记录方式</span>
-              <span>中英文公开页面</span>
-              <span>适用于 App Store 外部链接</span>
+            <div class="hero-foot">
+              <span>Default public language: English</span>
+              <span>Local-first product direction</span>
+              <span>App Store-ready public links</span>
             </div>
           </div>
 
-          <div class="poster-scene" aria-label="Runway product atmosphere">
-            <section class="scene-card highlight">
-              <p class="scene-kicker">当前状态</p>
-              <p class="scene-metric">
-                <span class="scene-number">324</span>
-                <span class="scene-unit">天 runway</span>
+          <div class="hero-stage" aria-label="Runway atmosphere">
+            <div class="hero-glow"></div>
+
+            <section class="logo-anchor">
+              <img src="/assets/logo77.png" alt="Runway logo mark">
+              <p class="logo-caption">
+                A restrained symbol for room, continuity, and the shape of time you still have to work with.
               </p>
-              <p class="scene-copy">
-                不是只告诉你有多少钱，而是告诉你这份缓冲还能支撑多久，以及最近的方向有没有在回稳。
-              </p>
-              <div class="meter" aria-hidden="true"></div>
             </section>
 
-            <section class="scene-card secondary">
-              <div class="scene-list">
-                <div class="scene-row">
-                  <span class="label">样本</span>
-                  <p>四月份大理旅居长租，独立开发 App 订阅收入，咖啡与精神体验。</p>
-                </div>
-                <div class="scene-row">
-                  <span class="label">趋势</span>
-                  <p>最近 90 天的净现金流在收敛，支出基线变得更可解释，而不是更紧张。</p>
-                </div>
-                <div class="scene-row">
-                  <span class="label">语气</span>
-                  <p>对事实诚实，对情绪温和。警示要有方向感，不把用户推回压力里。</p>
-                </div>
-              </div>
-            </section>
+            <div class="hero-aside">
+              <section class="aside-metric">
+                <div class="aside-kicker">Current runway</div>
+                <strong>324 days</strong>
+                <p>Not just how much remains, but how long your buffer can hold before the current direction changes the story.</p>
+              </section>
+              <section class="aside-note">
+                <div class="aside-kicker">What matters now</div>
+                <p>The recent baseline is getting easier to explain. The pace is becoming calmer. That kind of clarity is part of the product, not a side effect.</p>
+              </section>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section-panel" id="philosophy">
-        <div class="section-heading">
-          <span class="section-kicker">Philosophy</span>
-          <h2 class="section-title">它把“财务状态”重新翻译成更接近生活的语言。</h2>
-          <p class="section-body">
-            真正影响情绪的往往不是总资产本身，而是它意味着什么。Runway 希望让你快速回答三个问题：我现在处于什么位置，最近趋势在变好还是变差，接下来最值得注意的是什么。
-          </p>
-          <p class="section-tagline">时间不是装饰性概念，而是对自由度、缓冲感与可选择性的更直觉表达。</p>
-        </div>
-
-        <div class="pillar-grid">
-          <article class="pillar">
-            <div class="pillar-index">01 · 清楚现在</div>
-            <h3>用同一个框架看资产、现金流与支出基线。</h3>
-            <p>不是把账本拆成彼此孤立的模块，而是让数字回到一个能被整体理解的画面里。</p>
-          </article>
-          <article class="pillar">
-            <div class="pillar-index">02 · 解释趋势</div>
-            <h3>把变化翻译成 runway、缓冲和速度，而不是更多图表噪音。</h3>
-            <p>趋势应该回答“意味着什么”，而不是只留下更多需要你自己解释的线条。</p>
-          </article>
-          <article class="pillar">
-            <div class="pillar-index">03 · 保持诚实</div>
-            <h3>明确区分事实、估算和假设，不用虚假精确掩盖不确定性。</h3>
-            <p>当数据不完整时，产品应该说明边界，而不是假装自己知道得更多。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-panel" id="experience">
-        <div class="section-heading">
-          <span class="section-kicker">Experience</span>
-          <h2 class="section-title">它不是为了让你更苛刻，而是为了让你更有掌控感。</h2>
-        </div>
-
-        <div class="editorial-grid">
-          <section class="ledger-panel">
-            <h3>为生活服务的账本，而不是惩罚式的记录。</h3>
-            <p>
-              我们希望你在看到数字时，感受到的是理解与方向，而不是内疚。支出可以有情绪价值，生活也可以有审美与体验，它们不应该天然被归类成“偏离正确道路”。
+      <div class="content">
+        <section class="section" id="what-it-reads">
+          <div class="section-head">
+            <span class="section-overline">What it reads</span>
+            <h2 class="section-title">Runway is less interested in totals than in meaning.</h2>
+            <p class="section-copy">
+              A balance alone rarely tells you how a life feels. Runway is designed to read your finances as a lived situation:
+              where you stand, what is changing, and what that change implies.
             </p>
+          </div>
 
-            <div class="ledger-samples">
-              <div class="sample-row">
-                <div class="sample-meta">
-                  <span class="sample-title">四月份大理旅居长租</span>
-                  <span class="sample-note">生活方式调整</span>
-                </div>
-                <span class="sample-value">¥6,800</span>
-              </div>
-              <div class="sample-row">
-                <div class="sample-meta">
-                  <span class="sample-title">独立开发 App 订阅收入</span>
-                  <span class="sample-note">长期现金流</span>
-                </div>
-                <span class="sample-value">+¥12,400</span>
-              </div>
-              <div class="sample-row">
-                <div class="sample-meta">
-                  <span class="sample-title">M3 Max 生产力工具折现</span>
-                  <span class="sample-note">资产与效率</span>
-                </div>
-                <span class="sample-value">¥18,900</span>
-              </div>
-              <div class="sample-row">
-                <div class="sample-meta">
-                  <span class="sample-title">咖啡与精神体验</span>
-                  <span class="sample-note">日常恢复</span>
-                </div>
-                <span class="sample-value">¥420</span>
-              </div>
-            </div>
-            <p class="ledger-note">好的产品不该先做道德判断，它应该先帮助你理解这笔钱在生活里扮演了什么角色。</p>
-          </section>
+          <div class="three-up">
+            <article class="feature">
+              <div class="feature-index">01</div>
+              <h3>It clarifies the present.</h3>
+              <p>Assets, cash flow, and baseline spending belong in the same frame, so the product can show a state instead of isolated figures.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-index">02</div>
+              <h3>It interprets direction.</h3>
+              <p>Trend is not decoration. It should tell you whether the recent movement is giving you more room or quietly taking it away.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-index">03</div>
+              <h3>It stays honest.</h3>
+              <p>If something is a real record, a manual baseline, or a scenario assumption, the product should say so plainly instead of hiding uncertainty behind precision.</p>
+            </article>
+          </div>
+        </section>
 
-          <aside class="editorial-copy">
-            <section class="editorial-quote">
-              <h3>顶级的财务产品，不应该先让人紧张。</h3>
-              <blockquote>
-                “它先帮你重新呼吸，再帮你重新判断。”
-              </blockquote>
-              <footer>Runway 的目标，是把掌控感带回决策前面。</footer>
-            </section>
-            <section class="editorial-quote">
-              <h3>在几秒内看懂重点</h3>
+        <section class="section" id="why-time">
+          <div class="section-head">
+            <span class="section-overline">Why time</span>
+            <h2 class="section-title">Time is the clearest language for optionality.</h2>
+            <p class="section-copy">
+              Runway uses time not as metaphor, but as a more human unit of financial understanding. It tells you how much space remains, whether the pressure is receding, and how fragile or resilient the current picture really is.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <section class="story-panel">
+              <h3>A ledger that serves life, not punishment.</h3>
               <p>
-                关键数字应该一眼能读，标签要克制，层次要清楚。我们更在意第一眼的理解速度，而不是组件数量。
+                Spending can carry quality-of-life value, recovery value, or memory value. A serious finance product should not rush to moralize. It should first help you see the role a number plays in a real life.
               </p>
+              <div class="ledger-lines">
+                <div class="ledger-row">
+                  <div>
+                    <span class="ledger-title">Dali long-stay apartment</span>
+                    <span class="ledger-note">A deliberate shift in pace</span>
+                  </div>
+                  <span class="ledger-value">¥6,800</span>
+                </div>
+                <div class="ledger-row">
+                  <div>
+                    <span class="ledger-title">Indie app subscription revenue</span>
+                    <span class="ledger-note">A slow, recurring line of support</span>
+                  </div>
+                  <span class="ledger-value">+¥12,400</span>
+                </div>
+                <div class="ledger-row">
+                  <div>
+                    <span class="ledger-title">M3 Max productivity resale value</span>
+                    <span class="ledger-note">Asset, efficiency, retained option</span>
+                  </div>
+                  <span class="ledger-value">¥18,900</span>
+                </div>
+                <div class="ledger-row">
+                  <div>
+                    <span class="ledger-title">Coffee and restorative rituals</span>
+                    <span class="ledger-note">A small expense with a real emotional role</span>
+                  </div>
+                  <span class="ledger-value">¥420</span>
+                </div>
+              </div>
             </section>
-          </aside>
-        </div>
-      </section>
 
-      <section class="section-panel" id="privacy">
-        <div class="section-heading">
-          <span class="section-kicker">Trust</span>
-          <h2 class="section-title">隐私不是补充说明，而是产品结构的一部分。</h2>
-          <p class="section-body">
-            财务信息高度私密。Runway 以本地优先为核心思路，尽量让核心记录与计算留在设备内完成。未来如果引入云同步、账户体系或远程备份功能，我们会在功能上线前明确说明。
-          </p>
-        </div>
+            <aside class="quote-panel">
+              <h3>The atmosphere matters.</h3>
+              <blockquote>
+                “A good financial product should help you breathe before it asks you to decide.”
+              </blockquote>
+              <footer>
+                Runway is built around calm clarity: truthful numbers, restrained language, and interfaces that reduce background stress instead of multiplying it.
+              </footer>
+            </aside>
+          </div>
+        </section>
 
-        <div class="assurance-grid">
-          <article class="assurance">
-            <span>Local-first</span>
-            <strong>核心记录优先保留在设备里。</strong>
-            <p>先让记账、趋势与推演在本地成立，而不是默认把敏感信息交给远端。</p>
-          </article>
-          <article class="assurance">
-            <span>Traceable</span>
-            <strong>关键指标应该有出处，也要有边界。</strong>
-            <p>当结果来自真实记录、手动基线或情景假设时，产品应该清楚说出来。</p>
-          </article>
-          <article class="assurance">
-            <span>Reachable</span>
-            <strong>需要帮助时，联系入口要公开而明确。</strong>
-            <p>关于支持、隐私或数据处理问题，你都可以直接联系 Fuhai Lab。</p>
-          </article>
-        </div>
-      </section>
+        <section class="section" id="trust">
+          <div class="section-head">
+            <span class="section-overline">Trust</span>
+            <h2 class="section-title">Privacy and emotional safety are part of the product structure.</h2>
+            <p class="section-copy">
+              Financial data is deeply personal. Runway is shaped around a local-first direction, explainable metrics, and a tone that does not weaponize urgency.
+            </p>
+          </div>
 
-      <section class="cta-banner">
-        <div>
-          <span class="section-kicker">Public Surface</span>
-          <h2>公开页面已经准备好，可以直接用于官网与苹果上架链接。</h2>
-          <p>
-            你可以从这里进入支持页、隐私政策、服务条款与隐私选择页面。它们保持同一套视觉与语气，也保留了审核需要的清晰性。
-          </p>
-        </div>
-        <div class="cta-actions">
-          <a class="button primary" href="/support/">支持页</a>
-          <a class="button secondary" href="/terms/">服务条款</a>
-        </div>
-      </section>
+          <div class="trust-grid">
+            <article class="trust-item">
+              <div class="feature-index">Local-first</div>
+              <strong>Core records are intended to stay on device first.</strong>
+              <p>Tracking, categorization, trend reading, and runway logic should work without treating the cloud as the default source of truth.</p>
+            </article>
+            <article class="trust-item">
+              <div class="feature-index">Explainable</div>
+              <strong>Every important output should say what it rests on.</strong>
+              <p>Whether a figure comes from recent cash flow, a manual baseline, or scenario input, the product should make that visible.</p>
+            </article>
+            <article class="trust-item">
+              <div class="feature-index">Calm</div>
+              <strong>Warnings need direction, not drama.</strong>
+              <p>Runway prefers clear next steps over shame, alarm language, or theatrical crisis framing.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="cta-panel">
+          <div>
+            <span class="section-overline">Public surface</span>
+            <h2>Everything needed for the public site and App Store-facing links is available here.</h2>
+            <p>
+              Support, privacy, terms, and privacy choices are all published in a coherent visual system, with English as the default public language and Chinese available as a full secondary version.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="button primary" href="/support/">Support</a>
+            <a class="button secondary" href="/terms/">Terms</a>
+          </div>
+        </section>
+      </div>
     </main>
 
-    <footer class="footer">
-      <div class="footer-note">
-        <strong>Runway（自由倒计时）</strong>
-        <div>Calm clarity for personal finance, by Fuhai Lab.</div>
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <strong>Runway</strong>
+        <div>A premium, local-first public site for a calmer way to read personal finance.</div>
       </div>
-      <div class="inline-links">
-        <a href="/privacy/">隐私政策</a>
-        <a href="/privacy-choices/">隐私选择</a>
-        <a href="/support/">支持</a>
-        <a href="/terms/">条款</a>
-        <a href="/en/">English</a>
+      <div class="footer-links">
+        <a href="/privacy/">Privacy</a>
+        <a href="/privacy-choices/">Privacy Choices</a>
+        <a href="/support/">Support</a>
+        <a href="/terms/">Terms</a>
+        <a href="/zh/">中文</a>
       </div>
     </footer>
   </div>
