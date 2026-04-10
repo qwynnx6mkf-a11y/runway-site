@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runway 支持与反馈</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: linear-gradient(180deg, #eff8fb, #fbfdff);
+      --surface: rgba(255, 255, 255, 0.9);
+      --text: #173042;
+      --muted: #5b7280;
+      --border: rgba(108, 150, 169, 0.22);
+      --shadow: 0 20px 48px rgba(78, 120, 141, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .wrap {
+      width: min(820px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 56px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 32px 24px;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 5vw, 46px);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+
+    .top {
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <div class="top"><a href="/">返回首页</a></div>
+      <h1>Runway 支持与反馈</h1>
+      <p>
+        如果你在使用 Runway 时遇到问题，或想反馈建议、报告 bug、咨询功能细节，
+        可以通过邮件联系我们。
+      </p>
+
+      <h2>联系方式</h2>
+      <p>
+        开发者：Fuhai Lab
+        <br>
+        邮箱：support@fuhailab.com
+      </p>
+
+      <h2>反馈时建议附带的信息</h2>
+      <ul>
+        <li>设备型号与系统版本</li>
+        <li>问题出现时的操作步骤</li>
+        <li>相关截图或录屏</li>
+        <li>如果涉及账本、趋势或 runway 计算，可补充示例数据或描述</li>
+      </ul>
+
+      <h2>说明</h2>
+      <p>
+        我们会尽力在合理时间内回复，但不承诺即时响应。
+        我们也欢迎关于产品体验、财务表达方式和界面可理解性的反馈。
+      </p>
+    </div>
+  </div>
+</body>
+</html>
